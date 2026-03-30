@@ -125,6 +125,10 @@ npm start
 📍 Frontend runs at:
 http://localhost:3000
 
+### Install dependencies
+
+pip install -r requirements.txt
+
 ### Live Project Link
 
 ### 🔑 Demo Login Credentials
