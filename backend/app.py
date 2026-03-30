@@ -18,7 +18,7 @@ app.config["JWT_SECRET_KEY"] = os.getenv("JWT_SECRET_KEY", "dev-secret-key")
 
 jwt = JWTManager(app)
 db.init_app(app)
-CORS(app)
+CORS(app, origins="*")
 
 app.register_blueprint(auth_bp, url_prefix="/auth")
 app.register_blueprint(booking_bp, url_prefix="/booking")
