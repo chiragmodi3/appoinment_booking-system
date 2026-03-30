@@ -129,21 +129,6 @@ http://localhost:3000
 
 pip install -r requirements.txt
 
-### Live Project Link
-
-### 🔑 Demo Login Credentials
-
-# 👨‍💼 Admin
-
-- Username: admin
-- Password: admin123
-
-👉 Use this account to:
-
-- Create slots
-- View bookings
-- Register users
-
 ### 🔐 Authentication & Authorization
 
 - JWT-based authentication
